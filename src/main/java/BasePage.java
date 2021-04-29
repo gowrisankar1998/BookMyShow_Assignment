@@ -54,7 +54,7 @@ public class BasePage {
 
     public void waitFor(By locator) {
         int i = 0;
-        while (i < 5) {// increase as required
+        while (i < 10) {
             try {
                 WebDriverWait wait1 = new WebDriverWait(driver, 20);
                 wait1.until(ExpectedConditions.elementToBeClickable(locator));
