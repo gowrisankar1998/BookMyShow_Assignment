@@ -13,7 +13,6 @@ public class TC_09_10 extends BasePage {
 
     public void searchOffer(String offer) {
         try {
-//            click(By.id("wzrk-cancel"));
             click(By.cssSelector(".sc-hMrMfs:nth-child(1) .sc-yZwTr"));
             click(By.linkText("Offers"));
             Assert.assertEquals(driver.getCurrentUrl(),"https://in.bookmyshow.com/offers");
