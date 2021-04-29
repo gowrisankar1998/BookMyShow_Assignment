@@ -8,9 +8,7 @@ public class BookMyShow {
 
     @BeforeMethod
     public void openBrowser() throws Exception {
-        //For selecting Google Chrome use chrome inside openBrowser method
-        //For selecting Mozilla Firefox use firefox inside openBrowser method
-        driver = Browser.openBrowser("chrome");
+        driver = Browser.openBrowser();
     }
 
 
